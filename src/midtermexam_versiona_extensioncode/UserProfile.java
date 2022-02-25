@@ -13,12 +13,20 @@ package midtermexam_versiona_extensioncode;
  * code.
  * @author dancye, 2019
  */
+
+/*
+ * Edited by
+ * Name: Aleksandr Arsentev
+ * Student ID: 991636298
+ * Date 25/2/2022
+*/
 public class UserProfile 
 {
     
     private String userID;//the userID
     private String genre;// the user's preferred genre of movie
-    private String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+    protected static String[] genres = {"Comedy", "Drama", "Action", "Mystery"};//available genres of movies
+    //!I was allowed to modify the array, so it could be accessed from the other class
     
     /**
      * A constructor that takes in the userID and the favourite genre
