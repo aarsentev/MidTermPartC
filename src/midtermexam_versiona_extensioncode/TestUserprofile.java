@@ -21,7 +21,7 @@ public class TestUserprofile {
         
         //prompting the name
         System.out.println("Please enter your name");
-        String yourName = key.nextLine();
+        String yourName = key.next();
         
         //giving the list of availible genres, no validation is required for the task
         System.out.println("Please choose your favourite genre");
@@ -30,7 +30,7 @@ public class TestUserprofile {
         }
        
         // prompting the genre
-        String yourGenre = key.nextLine(); 
+        String yourGenre = key.next(); 
         
         //creating the UserProfile object
         UserProfile u1 = new UserProfile(yourName, yourGenre);
